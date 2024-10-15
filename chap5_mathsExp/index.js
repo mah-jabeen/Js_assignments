@@ -68,3 +68,26 @@
 // document.write("<br>"+num +" × 10 = " + multi);
 
 // 6
+// var celsius,fahrenheit;
+// fahrenheit= prompt("Enter any number you want to convert in celsius");
+// celsius = (fahrenheit-32)*5/9;
+// document.write(celsius + "oC is" + " "+fahrenheit + "oF");
+// celsius= prompt("Enter any number you want to convert in fahrenheit");
+// fahrenheit = (celsius*9/5)+32;
+// document.write("<br>" +fahrenheit + "oF is" + " "+ celsius + "oC");
+
+// 7
+var item1, item2, quantity1, quantity2, shipping;
+item1=prompt("Price of item 1: ");
+quantity1=prompt("Enter quantity of item1:");
+item2=prompt("Price of item 2: ");
+quantity2=prompt("Enter quantity of item2:");
+shipping=prompt("Enter shipping charges:");
+total= (item1*quantity1) + (item2*quantity2) + shipping;
+document.write("<strong> Shopping Cart </strong><br><br><br>");
+document.write("Price of item 1 is " + item1 + "<br>");
+document.write("Quantity of item 1 is " + quantity1 + "<br>");
+document.write("Price of item 2 is " + item2 + "<br>");
+document.write("Quantity of item 2 is " + quantity2 + "<br>");
+document.write("Shipping charges "+ shipping + "<br>");
+document.write("Total cost of your order is " + total + "<br>");
