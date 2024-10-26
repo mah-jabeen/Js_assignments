@@ -67,4 +67,23 @@
 
 
 // 10
+// var studentScores = [ 320 , 230 , 480 , 120 ];
+// var scores = studentScores.sort()
+// console.log(scores);
 
+// 11
+// var cities =[ "karachi", "lahore","islamabad","quetta","peshawar"];
+// var favCities = cities.slice(2,4);
+// document.write(favCities);
+
+// 12
+// var arr = ["this","is","my","cat"];
+// var sen= arr.join();
+// console.log(sen);
+
+// 13
+// var fifo =["first" ,"in","first","out"];
+ // var arr1 =fifo.shift()
+ // console.log(fifo);
+// var arr2 =fifo.unshift("FIFO")
+// console.log(fifo);
