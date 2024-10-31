@@ -71,8 +71,8 @@
 
 
 //12
-var num=35.36;
-document.write("Number: " + num);
-result= parseFloat(num);
-document.write("<br>Result: " + result);
+// var num = 35.36;
+// var strNum = num.toString().replace(".", "");
+// document.write("The result is: " + strNum);
 
+// 13
