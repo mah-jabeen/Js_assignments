@@ -76,3 +76,48 @@
 // document.write("The result is: " + strNum);
 
 // 13
+// var specialChars = [33, 44, 46, 64];
+// var username;
+// var isValid;
+// var i;
+// do {
+//     username = prompt("Enter your username: ");
+//     isValid = true;
+
+//     for (i = 0; i < username.length; i++) {
+//         if (specialChars.indexOf(username.charCodeAt(i)) !== -1) {
+//             isValid = false;
+//             break;
+//         }
+//     }
+
+//     if (isValid) {
+//         alert("Username '" + username + "' is valid!");
+//     } else {
+//         alert("Invalid username. Please avoid using @, ., ,, and !");
+//     }
+
+// } while (!isValid);
+
+// 14
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var searchByUser = prompt("Enter any item name:").toLowerCase();
+
+// var found = false; 
+// var index; 
+
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i].toLowerCase() === searchByUser) {
+//         found = true;
+//         index = i;
+//         break;
+//     }
+// }
+
+// if (found) {
+//     document.write("It's a " + arr[index] + " at index " + index);
+// } else {
+//     document.write("Item not found. Please enter a correct item.");
+// }
+
+// 15
